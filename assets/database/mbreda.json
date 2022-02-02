@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Carbon Mbreda",
+    "dosage": {
+      "dose": 1,
+      "dose.unit": "ml",
+      "tank.volume": 20,
+      "tank.unit": "L"
+    },
+    "notes": "Aplicar todos os dias. Ao usar pela primeira vez, usar 2x a dosagem recomendada."
+  },
+  {
+    "name": "Macronutri (Potássio)",
+    "dosage": {
+      "dose": 10,
+      "dose.unit": "ml",
+      "tank.volume": 100,
+      "tank.unit": "L",
+      "amount": 5,
+      "amount.unit": "ppm"
+    },
+    "notes": "Aplicar 1x na semana. Para aquários densamente plantados, pode-se usar 2x a dosagem recomendada. Sintomas de deficiência de Potássio incluem: furos nas folhas, clorose (amarelamento) e necrose (apodrecimento) das plantas."
+  },
+  {
+    "name": "MacroPlus NPK e micros",
+    "dosage": {
+      "dose": 10,
+      "dose.unit": "ml",
+      "tank.volume": 160,
+      "tank.unit": "L",
+      "amount.N": 0.57,
+      "amount.P": 1.14,
+      "amount.K": 3.42,
+      "amount.unit": "ppm"
+    },
+    "notes": "Aplicar 1x na semana. Além do NPK, o MacroPlus acrescenta a cada dosagem: 0.25ppm de Enxofre (S), S 0,25%, 0.17ppm de Magnésio (Mg), 0.01ppm de Ferro (Fe), 0.0048ppm de Zinco (Zn), 0.0048ppm de Cobre (Cu), 0.0029ppm de Boro (B), 0.0038ppm de Manganês (Mn) e 0.0001ppm de Molibdênio (Mo)."
+  },
+  {
+    "name": "Ferro Fe 2+ Mbreda",
+    "dosage": {
+      "dose": 10,
+      "dose.unit": "ml",
+      "tank.volume": 100,
+      "tank.unit": "L",
+      "amount": 1,
+      "amount.unit": "ppm"
+    },
+    "notes": "Aplicar 1x na semana após as TPAs. Deficiência de Ferro nas plantas inclui: clorose (amarelamento) das folhas com os veios ainda verdes e talos mais curtos e finos."
+  }
+]
