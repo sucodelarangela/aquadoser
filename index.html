@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="image" property="og:image" content="images/og_image.png" />
+    <meta name="author" content="Angela Caldas" />
+    <title>AquaDoser</title>
+    <link rel="stylesheet" href="assets/fonts/icons.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <i class="logo icon-aquadoser" style="color: black"></i>
+        <p class="app-name">Aquadoser</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="container">
+        <p class="text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut fugit
+          soluta nulla distinctio error quidem nisi, itaque quam? Ipsa
+          laudantium ab, culpa cum iure veniam obcaecati aliquam esse
+          consequatur tempora.
+        </p>
+        <a href="" class="start">Iniciar</a>
+      </section>
+
+      <section id="calculator" class="container">
+        <form action="#">
+          <fieldset>
+            <legend>Selecione a marca</legend>
+            <select>
+              <option selected disabled>Marca</option>
+              <option>Seachem</option>
+              <option>Mbreda</option>
+              <!-- JS will connect to their respective JSON DB -->
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Selecione o produto:</legend>
+            <select>
+              <option selected disabled>Marca</option>
+              <!-- JS will add options according to JSON DB -->
+            </select>
+          </fieldset>
+
+          <label for="">Volume do aquário:</label>
+          <input type="number" name="" id="" />
+          <p>litros</p>
+        </form>
+
+        <div class="buffers">
+          <!-- Js will show it only if buffers are selected.
+            Required pH and calculate opposite substance
+            i.e. if Acid selected, calculate Alkaline
+          if Alkaline selected, calculate Acid -->
+          <label for="">Informe o pH desejado:</label>
+          <input type="number" name="" id="" />
+        </div>
+
+        <input type="submit" value="Calcular" />
+
+        <div class="results">
+          <div>
+            <!-- JS will insert the result here -->
+          </div>
+          <p>
+            <!-- JS will insert the result unit here according to the product -->
+          </p>
+          <p>
+            <!-- JS will insert the usage notes here -->
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            consequatur sit neque modi, ipsam odio tenetur ullam reiciendis
+            minus fugit repudiandae nemo nulla eum hic sapiente dolorem deleniti
+            ratione. Sequi.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer container">
+        <div class="brand">
+          <i class="icon-logo"></i>
+          <!-- <img
+            class="logowhite"
+            src="images/logo_white.svg"
+            alt="Logo da página"
+          /> -->
+          <p>Design & construção por Angela Caldas</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social grid">
+          <ul class="grid">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/angela-caldas/"
+                target="_blank"
+              >
+                <i class="icon-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/sucodelarangela" target="_blank">
+                <i class="icon-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/sucodelarangela"
+                target="_blank"
+              >
+                <i class="icon-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/sucodelarangela" target="_blank">
+                <i class="icon-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
