@@ -1,6 +1,7 @@
 [
   {
     "name": "Carbon Mbreda",
+    "value": "carbon-mbreda",
     "dosage": {
       "dose": 1,
       "dose.unit": "ml",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Macronutri (Potássio)",
+    "value": "macronutri",
     "dosage": {
       "dose": 10,
       "dose.unit": "ml",
@@ -23,6 +25,7 @@
   },
   {
     "name": "MacroPlus NPK e micros",
+    "value": "macroplus",
     "dosage": {
       "dose": 10,
       "dose.unit": "ml",
@@ -37,6 +40,7 @@
   },
   {
     "name": "Ferro Fe 2+ Mbreda",
+    "value": "ferro-mbreda",
     "dosage": {
       "dose": 10,
       "dose.unit": "ml",

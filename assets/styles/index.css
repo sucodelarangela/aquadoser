@@ -15,6 +15,11 @@
   background: gray;
 }
 
+select,
+input {
+  border: 1px solid black;
+}
+
 .footer {
   background: gray;
 }

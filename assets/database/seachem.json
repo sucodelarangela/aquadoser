@@ -1,6 +1,7 @@
 [
   {
     "name": "Alkaline Buffer",
+    "value": "alkaline",
     "dosage": {
       "dose": 6,
       "dose.unit": "g",
@@ -13,6 +14,7 @@
   },
   {
     "name": "Acid Buffer",
+    "value": "acid-buffer",
     "dosage": {
       "dose": 2,
       "dose.unit": "g",
@@ -25,6 +27,7 @@
   },
   {
     "name": "Flourish Excel",
+    "value": "flourish-excel",
     "dosage": {
       "dose": 5,
       "dose.unit": "ml",
@@ -35,6 +38,7 @@
   },
   {
     "name": "Seachem Iron (Ferro)",
+    "value": "seachem-iron",
     "dosage": {
       "dose": 5,
       "dose.unit": "ml",
@@ -45,6 +49,7 @@
   },
   {
     "name": "Flourish Nitrogen (Nitrogênio)",
+    "value": "flourish-nitrogen",
     "dosage": {
       "dose": 2.5,
       "dose.unit": "ml",
@@ -57,6 +62,7 @@
   },
   {
     "name": "Flourish Phosphorus (Fósforo)",
+    "value": "flourish-phosphorus",
     "dosage": {
       "dose": 2.5,
       "dose.unit": "ml",
@@ -69,6 +75,7 @@
   },
   {
     "name": "Flourish Potassium (Potássio)",
+    "value": "flourish-potassium",
     "dosage": {
       "dose": 5,
       "dose.unit": "ml",

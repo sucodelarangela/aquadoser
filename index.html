@@ -33,17 +33,17 @@
         <form action="#">
           <fieldset>
             <legend>Selecione a marca</legend>
-            <select>
+            <select data-products>
               <option selected disabled>Marca</option>
-              <option>Seachem</option>
-              <option>Mbreda</option>
+              <option value="seachem">Seachem</option>
+              <option value="mbreda">Mbreda</option>
               <!-- JS will connect to their respective JSON DB -->
             </select>
           </fieldset>
 
           <fieldset>
             <legend>Selecione o produto:</legend>
-            <select>
+            <select data-list>
               <option selected disabled>Marca</option>
               <!-- JS will add options according to JSON DB -->
             </select>
@@ -127,5 +127,7 @@
         </div>
       </div>
     </footer>
+
+    <script type="module" src="assets/script/main.js"></script>
   </body>
 </html>
