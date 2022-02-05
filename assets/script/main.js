@@ -1,11 +1,16 @@
-// example of how to get json info
+const selectedBrand = document.querySelector('[data-products]')
 
-fetch('assets/database/seachem.json')
-  .then(response => response.json())
-  .then(data => {
-    for (let i = 0; i < data.length; i++) {
-      let productName = data[i].name
-      let productDosage = data[i].dosage.dose
-      console.log(productDosage)
-    }
-  })
+function chooseBrand() {
+  const option = document.querySelector('[data-list]')
+  option.innerHTML = ''
+
+  const database = `assets/database/${selectedBrand.value}.json`
+
+  fetch(database)
+    .then(response => response.json())
+    .then(data => {
+      for (let i = 0; i < data.length; i++) {
+        option.innerHTML += `<option class="list" value="${data[i].value}">${data[i].name}</option>`
+      }
+    })
+}
