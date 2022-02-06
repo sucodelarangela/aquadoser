@@ -43,18 +43,21 @@
 
           <fieldset>
             <legend>Selecione o produto:</legend>
-            <select data-list>
-              <option selected disabled>Marca</option>
+            <select
+              onchange="javascript:document.querySelector('[data-result]').innerHTML=''"
+              data-list
+            >
+              <option selected disabled>Produto</option>
               <!-- JS will add options according to JSON DB -->
             </select>
           </fieldset>
 
-          <label for="">Volume do aquário:</label>
-          <input type="number" name="" id="" />
+          <label for="volume">Volume do aquário:</label>
+          <input type="number" name="" id="volume" data-volume />
           <p>litros</p>
         </form>
 
-        <div class="buffers">
+        <div class="buffers" style="display: none">
           <!-- Js will show it only if buffers are selected.
             Required pH and calculate opposite substance
             i.e. if Acid selected, calculate Alkaline
@@ -63,23 +66,9 @@
           <input type="number" name="" id="" />
         </div>
 
-        <input type="submit" value="Calcular" />
+        <input type="submit" value="Calcular" data-calc />
 
-        <div class="results">
-          <div>
-            <!-- JS will insert the result here -->
-          </div>
-          <p>
-            <!-- JS will insert the result unit here according to the product -->
-          </p>
-          <p>
-            <!-- JS will insert the usage notes here -->
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            consequatur sit neque modi, ipsam odio tenetur ullam reiciendis
-            minus fugit repudiandae nemo nulla eum hic sapiente dolorem deleniti
-            ratione. Sequi.
-          </p>
-        </div>
+        <div class="results" data-result></div>
       </section>
     </main>
 

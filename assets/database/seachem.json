@@ -4,11 +4,11 @@
     "value": "alkaline",
     "dosage": {
       "dose": 6,
-      "dose.unit": "g",
-      "tank.volume": 80,
-      "tank.unit": "L",
+      "doseUnit": "g",
+      "tankVolume": 80,
+      "tankUnit": "L",
       "amount": 2.8,
-      "amount.unit": "dkh"
+      "amountUnit": "dkh"
     },
     "notes": "Adicionar a dosagem recomendada diariamente até que o pH desejado seja alcançado. Alkaline Buffer é ideal para aquários plantados por não conter fosfatos em sua composição."
   },
@@ -17,11 +17,11 @@
     "value": "acid-buffer",
     "dosage": {
       "dose": 2,
-      "dose.unit": "g",
-      "tank.volume": 80,
-      "tank.unit": "L",
+      "doseUnit": "g",
+      "tankVolume": 80,
+      "tankUnit": "L",
       "amount": -0.6,
-      "amount.unit": "dkh"
+      "amountUnit": "dkh"
     },
     "notes": "Adicionar a dosagem recomendada diariamente até que o pH desejado seja alcançado. Dosagens mais altas podem ser necessárias em caso de águas muito duras (KH muito alto). Acid Buffer é ideal para aquários plantados por não conter fosfatos em sua composição."
   },
@@ -30,9 +30,9 @@
     "value": "flourish-excel",
     "dosage": {
       "dose": 5,
-      "dose.unit": "ml",
-      "tank.volume": 200,
-      "tank.unit": "L"
+      "doseUnit": "ml",
+      "tankVolume": 200,
+      "tankUnit": "L"
     },
     "notes": "Aplicar todos os dias ou em dias alternados. Ao usar pela primeira vez ou após TPAs > 40%, usar 5x a dosagem recomendada."
   },
@@ -41,9 +41,9 @@
     "value": "seachem-iron",
     "dosage": {
       "dose": 5,
-      "dose.unit": "ml",
-      "tank.volume": 200,
-      "tank.unit": "L"
+      "doseUnit": "ml",
+      "tankVolume": 200,
+      "tankUnit": "L"
     },
     "notes": "Aplicar sempre que necessário para manter a concentração de Ferro no aquário em 0.10 mg/L (ppm). Deficiência de Ferro nas plantas inclui: clorose (amarelamento) das folhas com os veios ainda verdes e talos mais curtos e finos."
   },
@@ -52,11 +52,11 @@
     "value": "flourish-nitrogen",
     "dosage": {
       "dose": 2.5,
-      "dose.unit": "ml",
-      "tank.volume": 160,
-      "tank.unit": "L",
+      "doseUnit": "ml",
+      "tankVolume": 160,
+      "tankUnit": "L",
       "amount": 0.24,
-      "amount.unit": "ppm"
+      "amountUnit": "ppm"
     },
     "notes": "Aplicar 2x por semana ou conforme a necessidade das plantas. Sintomas de deficiência de Nitrogênio incluem: folhas amareladas (clorose) e crescimento deficiente."
   },
@@ -65,11 +65,11 @@
     "value": "flourish-phosphorus",
     "dosage": {
       "dose": 2.5,
-      "dose.unit": "ml",
-      "tank.volume": 80,
-      "tank.unit": "L",
+      "doseUnit": "ml",
+      "tankVolume": 80,
+      "tankUnit": "L",
       "amount": 0.15,
-      "amount.unit": "ppm"
+      "amountUnit": "ppm"
     },
     "notes": "Aplicar 1x ou 2x na semana ou conforme a necessidade das plantas. Sintomas de deficiência de Fósforo incluem: apodrecimento das folhas e aparecimento de GSA (Green Spot Algae). A quantidade ideal de fosfatos varia, mas geralmente fica entre 0.15–1.0 mg/L(ppm)."
   },
@@ -78,11 +78,11 @@
     "value": "flourish-potassium",
     "dosage": {
       "dose": 5,
-      "dose.unit": "ml",
-      "tank.volume": 125,
-      "tank.unit": "L",
+      "doseUnit": "ml",
+      "tankVolume": 125,
+      "tankUnit": "L",
       "amount": 2,
-      "amount.unit": "ppm"
+      "amountUnit": "ppm"
     },
     "notes": "Aplicar 2x a 3x por semana ou conforme a necessidade das plantas. Sintomas de deficiência de Potássio incluem: furos nas folhas, clorose (amarelamento) e necrose (apodrecimento) das plantas."
   }
