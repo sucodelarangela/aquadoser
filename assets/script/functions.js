@@ -33,8 +33,8 @@ function calculate() {
           const dosageVolume = data[i].dosage.tankVolume
           const unit = data[i].dosage.doseUnit
           const notes = data[i].notes
-          const dosage = (dose * aquariumVolume) / dosageVolume
-          resultDiv.innerHTML = `<p>A dose recomendada para o seu aquário é de ${dosage} ${unit}.</p>
+          const dosage = ((dose * aquariumVolume) / dosageVolume).toFixed(2)
+          resultDiv.innerHTML = `<p>A dose recomendada é de ${dosage} ${unit}.</p>
           <p>${notes}</p>`
         }
       }
