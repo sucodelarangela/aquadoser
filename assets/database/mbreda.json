@@ -4,9 +4,9 @@
     "value": "carbon-mbreda",
     "dosage": {
       "dose": 1,
-      "dose.unit": "ml",
-      "tank.volume": 20,
-      "tank.unit": "L"
+      "doseUnit": "ml",
+      "tankVolume": 20,
+      "tankUnit": "L"
     },
     "notes": "Aplicar todos os dias. Ao usar pela primeira vez, usar 2x a dosagem recomendada."
   },
@@ -15,40 +15,32 @@
     "value": "macronutri",
     "dosage": {
       "dose": 10,
-      "dose.unit": "ml",
-      "tank.volume": 100,
-      "tank.unit": "L",
-      "amount": 5,
-      "amount.unit": "ppm"
+      "doseUnit": "ml",
+      "tankVolume": 100,
+      "tankUnit": "L"
     },
-    "notes": "Aplicar 1x na semana. Para aquários densamente plantados, pode-se usar 2x a dosagem recomendada. Sintomas de deficiência de Potássio incluem: furos nas folhas, clorose (amarelamento) e necrose (apodrecimento) das plantas."
+    "notes": "Esta dosagem aumenta a concentração de Potássio em 5 ppm. Aplicar 1x na semana. Para aquários densamente plantados, pode-se usar 2x a dosagem recomendada. Sintomas de deficiência de Potássio incluem: furos nas folhas, clorose (amarelamento) e necrose (apodrecimento) das plantas."
   },
   {
     "name": "MacroPlus NPK e micros",
     "value": "macroplus",
     "dosage": {
       "dose": 10,
-      "dose.unit": "ml",
-      "tank.volume": 160,
-      "tank.unit": "L",
-      "amount.N": 0.57,
-      "amount.P": 1.14,
-      "amount.K": 3.42,
-      "amount.unit": "ppm"
+      "doseUnit": "ml",
+      "tankVolume": 160,
+      "tankUnit": "L"
     },
-    "notes": "Aplicar 1x na semana. Além do NPK, o MacroPlus acrescenta a cada dosagem: 0.25ppm de Enxofre (S), S 0,25%, 0.17ppm de Magnésio (Mg), 0.01ppm de Ferro (Fe), 0.0048ppm de Zinco (Zn), 0.0048ppm de Cobre (Cu), 0.0029ppm de Boro (B), 0.0038ppm de Manganês (Mn) e 0.0001ppm de Molibdênio (Mo)."
+    "notes": "Aplicar 1x na semana. O MacroPlus acrescenta a cada dosagem:<br>0.57 ppm de Nitrogênio (N);<br>1.14 ppm de Fósforo (P);<br> 3.42 ppm de Potássio (K);<br>0.25 ppm de Enxofre (S);<br>0.17 ppm de Magnésio (Mg);<br>0.01 ppm de Ferro (Fe);<br>0.0048 ppm de Zinco (Zn);<br>0.0048 ppm de Cobre (Cu);<br>0.0029 ppm de Boro (B);<br>0.0038 ppm de Manganês (Mn); e<br>0.0001 ppm de Molibdênio (Mo)."
   },
   {
     "name": "Ferro Fe 2+ Mbreda",
     "value": "ferro-mbreda",
     "dosage": {
       "dose": 10,
-      "dose.unit": "ml",
-      "tank.volume": 100,
-      "tank.unit": "L",
-      "amount": 1,
-      "amount.unit": "ppm"
+      "doseUnit": "ml",
+      "tankVolume": 100,
+      "tankUnit": "L"
     },
-    "notes": "Aplicar 1x na semana após as TPAs. Deficiência de Ferro nas plantas inclui: clorose (amarelamento) das folhas com os veios ainda verdes e talos mais curtos e finos."
+    "notes": "Esta dosagem aumenta a concentração de Ferro em 1 ppm. Aplicar 1x na semana após as TPAs. Deficiência de Ferro nas plantas inclui: clorose (amarelamento) das folhas com os veios ainda verdes e talos mais curtos e finos."
   }
 ]
