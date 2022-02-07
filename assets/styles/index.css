@@ -1,25 +1,80 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  /* fonts */
+  --body-font: 'Poppins', sans-serif;
+  --logo-font: 'Coiny', cursive;
+  /* colors */
+  --hue: 210;
+  --bg-color: hsl(var(--hue), 100%, 50%);
+  --font-color: hsl(var(--hue), 100%, 25%);
+}
+
+body {
+  font-family: var(--body-font);
 }
 
 .container {
   padding: 1rem 1.5rem;
+  margin: 5rem 0;
 }
 
-.header {
+.header.container {
   display: flex;
   gap: 0.5rem;
-  background: gray;
+  background: var(--bg-color);
+  align-items: baseline;
+  color: white;
+  margin: 0;
+}
+
+.icon-aquadoser {
+  font-size: 1.5rem;
+}
+
+.app-name {
+  font-family: var(--logo-font);
+  font-size: 1.3rem;
+}
+
+.text {
+  line-height: 1.5rem;
+  color: var(--font-color);
+  margin-bottom: 5rem;
+}
+
+.text span {
+  font-weight: bold;
+}
+
+.start {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.start a {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.start:hover {
+  opacity: 0.5; /* test */
 }
 
 select,
 input {
   border: 1px solid black;
+  font-family: var(--body-font);
 }
 
 .footer {
-  background: gray;
+  background: var(--bg-color);
 }
