@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('icomoon.eot?9sht69');
-  src: url('icomoon.eot?9sht69#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?9sht69') format('truetype'),
-    url('icomoon.woff?9sht69') format('woff'),
-    url('icomoon.svg?9sht69#icomoon') format('svg');
+  src: url('icomoon.eot?htihp1');
+  src: url('icomoon.eot?htihp1#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?htihp1') format('truetype'),
+    url('icomoon.woff?htihp1') format('woff'),
+    url('icomoon.svg?htihp1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,9 +26,57 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-aquadoser:before {
+.icon-logo:before {
+  content: '\e911';
+}
+.icon-moon:before {
+  content: '\e909';
+}
+.icon-sun:before {
+  content: '\e90b';
+}
+.icon-arrow-up:before {
   content: '\e900';
 }
-.icon-ac-logo:before {
+.icon-phone:before {
+  content: '\e902';
+}
+.icon-close:before {
+  content: '\e903';
+}
+.icon-facebook:before {
+  content: '\e904';
+}
+.icon-instagram:before {
+  content: '\e905';
+}
+.icon-mail:before {
+  content: '\e906';
+}
+.icon-map-pin:before {
+  content: '\e907';
+}
+.icon-menu:before {
+  content: '\e908';
+}
+.icon-whatsapp:before {
+  content: '\e90a';
+}
+.icon-youtube:before {
+  content: '\e90c';
+}
+.icon-twitter:before {
+  content: '\e90d';
+}
+.icon-github:before {
+  content: '\e90e';
+}
+.icon-linkedin:before {
+  content: '\e90f';
+}
+.icon-launch:before {
   content: '\e910';
+}
+.icon-aquadoser:before {
+  content: '\e901';
 }
