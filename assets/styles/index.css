@@ -4,6 +4,7 @@
   border: none;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -13,16 +14,22 @@
   /* colors */
   --hue: 210;
   --bg-color: hsl(var(--hue), 100%, 50%);
-  --font-color: hsl(var(--hue), 100%, 25%);
+  --font-color: hsl(var(--hue), 100%, 20%);
 }
 
 body {
   font-family: var(--body-font);
+  background-color: #eeeeee;
 }
 
 .container {
   padding: 1rem 1.5rem;
-  margin: 5rem 0;
+  margin: 8rem 0;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
 }
 
 .header.container {
@@ -30,17 +37,17 @@ body {
   gap: 0.5rem;
   background: var(--bg-color);
   align-items: baseline;
-  color: white;
+  color: #eee;
   margin: 0;
 }
 
 .icon-aquadoser {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .app-name {
   font-family: var(--logo-font);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .text {
@@ -59,14 +66,42 @@ body {
 }
 
 .start a {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
   background-color: var(--bg-color);
-  color: white;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.start:hover {
-  opacity: 0.5; /* test */
+.start a:hover {
+  color: #eee;
+  background-color: var(--bg-color);
+  padding: 0.6rem 1.6rem;
+  border: 0.2rem solid #eee;
+  position: relative;
+  transition: border 0.2s;
+}
+
+.start a:hover::after {
+  content: '';
+  position: absolute;
+  background-color: var(--bg-color);
+  border-radius: 2rem;
+  top: -0.4rem;
+  bottom: -0.4rem;
+  left: -0.4rem;
+  right: -0.4rem;
+  z-index: -1;
+}
+
+.start a:active,
+.start a:active::after {
+  background-color: var(--font-color);
+}
+
+#calculator {
+  display: none;
 }
 
 select,
@@ -77,4 +112,50 @@ input {
 
 .footer {
   background: var(--bg-color);
+  color: #eee;
+  padding: 1rem 1.5rem;
+}
+
+.icon-logo {
+  font-size: 2.5rem;
+  color: #eee;
+}
+
+.brand a {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+
+.brand p {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 0 0 0.5rem;
+  max-width: 400px;
+}
+
+.footer .icon-logo {
+  text-align: center;
+}
+
+.social,
+.links {
+  justify-content: center;
+}
+
+.social ul,
+.links ul {
+  grid-auto-flow: column;
+  width: fit-content;
+}
+
+.social i,
+.links i {
+  font-size: 1.5rem;
+  color: #eee;
+}
+
+.footer i:hover {
+  color: var(--font-color);
+  transition: 0.2s;
 }
