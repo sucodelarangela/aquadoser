@@ -3,6 +3,11 @@ const option = document.querySelector('[data-list]')
 const volume = document.querySelector('[data-volume]')
 const resultDiv = document.querySelector('[data-result]')
 
+function openCalc() {
+  const startButton = document.querySelector('[data-start]')
+  console.log(startButton)
+}
+
 function chooseBrand() {
   option.innerHTML = ''
   resultDiv.innerHTML = ''
@@ -41,4 +46,4 @@ function calculate() {
     })
 }
 
-export {chooseBrand, calculate}
+export {chooseBrand, calculate, openCalc}

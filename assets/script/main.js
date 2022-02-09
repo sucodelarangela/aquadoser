@@ -1,4 +1,10 @@
-import {chooseBrand, calculate} from './functions.js'
+import {chooseBrand, calculate, openCalc} from './functions.js'
+
+const startButton = document.querySelector('[data-start]')
+startButton.addEventListener('click', event => {
+  event.preventDefault()
+  openCalc()
+})
 
 const brandSelect = document.querySelector('[data-products]')
 brandSelect.addEventListener('change', chooseBrand)
