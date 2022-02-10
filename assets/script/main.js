@@ -10,4 +10,7 @@ const brandSelect = document.querySelector('[data-products]')
 brandSelect.addEventListener('change', chooseBrand)
 
 const calcButton = document.querySelector('[data-calc]')
-calcButton.addEventListener('click', calculate)
+calcButton.addEventListener('click', event => {
+  event.preventDefault()
+  calculate()
+})

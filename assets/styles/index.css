@@ -25,6 +25,10 @@ body {
   background-color: var(--bg-color);
 }
 
+select {
+  cursor: pointer;
+}
+
 .container {
   padding: 1rem 2rem;
   margin: 5rem 0;
@@ -135,20 +139,70 @@ main {
   display: block;
 }
 
-select {
-  border: 1px solid black;
+.legend {
+  margin-bottom: 0.5rem;
+}
+
+.manufacturer {
+  position: relative;
+}
+
+.manufacturer.show::after {
+  content: 'Por favor, selecione uma marca.';
+  position: absolute;
+  left: 0;
+  bottom: 9px;
+  font-size: 0.875rem;
+  color: hsl(0, 100%, 50%);
+}
+
+.vol {
+  position: relative;
+}
+
+.vol.show::after {
+  content: 'Informe o volume do aquário';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -70px;
+  font-size: 0.875rem;
+  color: hsl(0, 100%, 50%);
+}
+
+.calculator select,
+.volume {
+  width: 100%;
+  border: 2px solid var(--header-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
   font-family: var(--body-font);
+  font-size: 1rem;
+  color: var(--font-color);
+  margin-bottom: 2rem;
 }
 
 .calculate {
+  display: flex;
   font-family: var(--body-font);
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin: 0 auto;
 }
 
 .calculate:hover {
   background-color: var(--font-color);
+}
+
+.results {
+  display: none;
+}
+
+.results.show {
+  display: block;
+  padding-top: 5rem;
+  margin: 0;
 }
 
 .footer {
