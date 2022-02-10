@@ -25,8 +25,8 @@
       </div>
     </header>
 
-    <main>
-      <div class="watermark"><i class="icon-aquadoser"></i></div>
+    <main data-main>
+      <div class="watermark" data-watermark><i class="icon-aquadoser"></i></div>
       <section id="about" class="container about" data-about>
         <p class="text">
           O <span>aquaDoser</span> é uma calculadora simples e prática para
@@ -40,10 +40,10 @@
 
       <section id="calculator" class="container calculator" data-form>
         <form action="#">
-          <fieldset>
-            <legend>Selecione a marca</legend>
+          <fieldset class="manufacturer" data-manufacturer>
+            <legend class="legend">Selecione a marca:</legend>
             <select data-products>
-              <option selected disabled>Marca</option>
+              <option class="selected" selected disabled>Marca</option>
               <option value="seachem">Seachem</option>
               <option value="mbreda">Mbreda</option>
               <!-- JS will connect to their respective JSON DB -->
@@ -51,7 +51,7 @@
           </fieldset>
 
           <fieldset>
-            <legend>Selecione o produto:</legend>
+            <legend class="legend">Selecione o produto:</legend>
             <select
               onchange="javascript:document.querySelector('[data-result]').innerHTML=''"
               data-list
@@ -61,17 +61,26 @@
             </select>
           </fieldset>
 
-          <label for="volume">Volume do aquário:</label>
-          <input type="number" name="" id="volume" data-volume />
-          <p>litros</p>
+          <label class="legend vol" for="volume" data-vol
+            >Volume do aquário (em Litros):</label
+          >
+
+          <input
+            type="number"
+            name=""
+            id="volume"
+            class="volume"
+            data-volume
+            required
+          />
         </form>
 
         <div class="buffers" style="display: none">
-          <!-- Js will show it only if buffers are selected.
+          <!-- Js will show it only if buffers are selected. Future implementation.
             Required pH and calculate opposite substance
             i.e. if Acid selected, calculate Alkaline
           if Alkaline selected, calculate Acid -->
-          <label for="">Informe o pH desejado:</label>
+          <label class="legend" for="">Informe o pH desejado:</label>
           <input type="number" name="" id="" />
         </div>
 

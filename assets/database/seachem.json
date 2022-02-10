@@ -44,7 +44,7 @@
     "notes": "Aplicar sempre que necessário para manter a concentração de Ferro no aquário em 0.10 mg/L (ppm). Deficiência de Ferro nas plantas inclui: clorose (amarelamento) das folhas com os veios ainda verdes e talos mais curtos e finos."
   },
   {
-    "name": "Flourish Nitrogen (Nitrogênio)",
+    "name": "Flourish Nitrogen (N)",
     "value": "flourish-nitrogen",
     "dosage": {
       "dose": 2.5,
@@ -55,7 +55,7 @@
     "notes": "Esta dosagem aumenta a concentração de Nitrogênio em 0.24 ppm. Aplicar 2x por semana ou conforme a necessidade das plantas. Sintomas de deficiência de Nitrogênio incluem: folhas amareladas (clorose) e crescimento deficiente."
   },
   {
-    "name": "Flourish Phosphorus (Fósforo)",
+    "name": "Flourish Phosphorus (P)",
     "value": "flourish-phosphorus",
     "dosage": {
       "dose": 2.5,
@@ -66,7 +66,7 @@
     "notes": "Esta dosagem aumenta a concentração de Fósforo em 0.15 ppm. Aplicar 1x ou 2x na semana ou conforme a necessidade das plantas. Sintomas de deficiência de Fósforo incluem: apodrecimento das folhas e aparecimento de GSA (Green Spot Algae). A quantidade ideal de fosfatos varia, mas geralmente fica entre 0.15–1.0 mg/L(ppm)."
   },
   {
-    "name": "Flourish Potassium (Potássio)",
+    "name": "Flourish Potassium (K)",
     "value": "flourish-potassium",
     "dosage": {
       "dose": 5,
