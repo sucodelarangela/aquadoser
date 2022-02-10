@@ -4,8 +4,10 @@ const volume = document.querySelector('[data-volume]')
 const resultDiv = document.querySelector('[data-result]')
 
 function openCalc() {
-  const startButton = document.querySelector('[data-start]')
-  console.log(startButton)
+  const about = document.querySelector('[data-about]')
+  const calculator = document.querySelector('[data-form]')
+  calculator.classList.add('open')
+  about.classList.add('close')
 }
 
 function chooseBrand() {

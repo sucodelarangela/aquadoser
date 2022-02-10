@@ -26,7 +26,8 @@
     </header>
 
     <main>
-      <section id="about" class="container">
+      <div class="watermark"><i class="icon-aquadoser"></i></div>
+      <section id="about" class="container about" data-about>
         <p class="text">
           O <span>aquaDoser</span> é uma calculadora simples e prática para
           ajudá-lo a determinar a dosagem certa dos produtos mais conhecidos do
@@ -37,7 +38,7 @@
         </div>
       </section>
 
-      <section id="calculator" class="container" data-form>
+      <section id="calculator" class="container calculator" data-form>
         <form action="#">
           <fieldset>
             <legend>Selecione a marca</legend>
@@ -74,7 +75,7 @@
           <input type="number" name="" id="" />
         </div>
 
-        <input type="submit" value="Calcular" data-calc />
+        <input type="submit" class="calculate" value="Calcular" data-calc />
 
         <div class="results" data-result></div>
       </section>

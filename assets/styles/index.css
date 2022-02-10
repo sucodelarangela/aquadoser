@@ -12,19 +12,22 @@
   --body-font: 'Poppins', sans-serif;
   --logo-font: 'Coiny', cursive;
   /* colors */
-  --hue: 210;
-  --bg-color: hsl(var(--hue), 100%, 50%);
-  --font-color: hsl(var(--hue), 100%, 20%);
+  --hue-blue: 210;
+  --header-color: hsl(var(--hue-blue), 100%, 50%);
+  --font-color: hsl(var(--hue-blue), 100%, 20%);
+  --bg-color: hsl(0, 0%, 93%);
+  --white: hsl(0, 0%, 100%);
+  --white-87: hsl(0, 0%, 87%);
 }
 
 body {
   font-family: var(--body-font);
-  background-color: #eeeeee;
+  background-color: var(--bg-color);
 }
 
 .container {
-  padding: 1rem 1.5rem;
-  margin: 8rem 0;
+  padding: 1rem 2rem;
+  margin: 5rem 0;
 }
 
 .grid {
@@ -35,9 +38,10 @@ body {
 .header.container {
   display: flex;
   gap: 0.5rem;
-  background: var(--bg-color);
+  background: var(--header-color);
   align-items: baseline;
-  color: #eee;
+  color: var(--bg-color);
+  padding: 1.75rem 2rem;
   margin: 0;
 }
 
@@ -48,6 +52,30 @@ body {
 .app-name {
   font-family: var(--logo-font);
   font-size: 1.5rem;
+}
+
+main {
+  position: relative;
+  margin-bottom: 15rem;
+}
+
+.watermark {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.watermark .icon-aquadoser {
+  font-size: 10rem;
+  color: var(--bg-color);
+  text-shadow: -10px 0 0.5rem var(--white), 10px 0 0.5rem var(--white-87),
+    0 10px 0.5rem var(--white);
+}
+
+.about.close {
+  display: none;
 }
 
 .text {
@@ -65,18 +93,17 @@ body {
   margin: 0 auto;
 }
 
-.start a {
+.start a,
+.calculate {
   padding: 1rem 2rem;
   border-radius: 2rem;
-  background-color: var(--bg-color);
+  background-color: var(--header-color);
   color: #eee;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .start a:hover {
-  color: #eee;
-  background-color: var(--bg-color);
   padding: 0.6rem 1.6rem;
   border: 0.2rem solid #eee;
   position: relative;
@@ -86,7 +113,7 @@ body {
 .start a:hover::after {
   content: '';
   position: absolute;
-  background-color: var(--bg-color);
+  background-color: var(--header-color);
   border-radius: 2rem;
   top: -0.4rem;
   bottom: -0.4rem;
@@ -100,20 +127,34 @@ body {
   background-color: var(--font-color);
 }
 
-#calculator {
+.calculator {
   display: none;
 }
 
-select,
-input {
+.calculator.open {
+  display: block;
+}
+
+select {
   border: 1px solid black;
   font-family: var(--body-font);
 }
 
+.calculate {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calculate:hover {
+  background-color: var(--font-color);
+}
+
 .footer {
-  background: var(--bg-color);
+  background: var(--header-color);
   color: #eee;
-  padding: 1rem 1.5rem;
+  padding: 1.75rem 2rem;
 }
 
 .icon-logo {
@@ -132,6 +173,7 @@ input {
   text-align: center;
   padding: 0 0 0.5rem;
   max-width: 400px;
+  margin: 0 auto;
 }
 
 .footer .icon-logo {
