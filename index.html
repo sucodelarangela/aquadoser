@@ -70,9 +70,14 @@
             name=""
             id="volume"
             class="volume"
+            placeholder="Ex: 45.5"
             data-volume
             required
           />
+
+          <input type="submit" class="calculate" value="Calcular" data-calc />
+
+          <div class="results" data-result></div>
         </form>
 
         <div class="buffers" style="display: none">
@@ -83,10 +88,6 @@
           <label class="legend" for="">Informe o pH desejado:</label>
           <input type="number" name="" id="" />
         </div>
-
-        <input type="submit" class="calculate" value="Calcular" data-calc />
-
-        <div class="results" data-result></div>
       </section>
     </main>
 
@@ -122,7 +123,10 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/sucodelarangela" target="_blank">
+              <a
+                href="https://github.com/sucodelarangela/aquadoser"
+                target="_blank"
+              >
                 <i class="icon-github"></i>
               </a>
             </li>

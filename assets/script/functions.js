@@ -37,13 +37,15 @@ function calculate() {
 
   if (selectedBrand.value === 'Marca') {
     document.querySelector('[data-manufacturer]').classList.add('show')
+    document.querySelector('[data-products]').focus()
     document
       .querySelector('[data-manufacturer]')
       .addEventListener('change', () => {
         document.querySelector('[data-manufacturer]').classList.remove('show')
       })
   } else if (aquariumVolume == '') {
-    document.querySelector('[data-vol').classList.add('show')
+    document.querySelector('[data-vol]').classList.add('show')
+    document.querySelector('[data-volume]').focus()
     document.querySelector('[data-volume]').addEventListener('input', () => {
       document.querySelector('[data-vol]').classList.remove('show')
     })
@@ -58,7 +60,7 @@ function calculate() {
             const unit = data[i].dosage.doseUnit
             const notes = data[i].notes
             const dosage = ((dose * aquariumVolume) / dosageVolume).toFixed(2)
-            resultDiv.innerHTML = `<p>A dose recomendada é de ${dosage} ${unit}.</p>
+            resultDiv.innerHTML = `<p>A dose recomendada é de ${dosage} ${unit}. </p>
             <p>${notes}</p>`
           }
         }
