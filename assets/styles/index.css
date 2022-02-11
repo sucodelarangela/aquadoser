@@ -1,3 +1,4 @@
+/* ---------- RESET ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,8 @@
   text-decoration: none;
   list-style: none;
 }
+
+/* ---------- BASE ---------- */
 
 :root {
   /* fonts */
@@ -29,6 +32,7 @@ select {
   cursor: pointer;
 }
 
+/* ---------- STYLES ---------- */
 .container {
   padding: 1rem 2rem;
   margin: 5rem 0;
@@ -56,6 +60,7 @@ select {
 .app-name {
   font-family: var(--logo-font);
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 main {
@@ -88,8 +93,12 @@ main {
   margin-bottom: 5rem;
 }
 
-.text span {
+.text .strong {
   font-weight: bold;
+}
+
+.text .click::before {
+  content: ' Para começar a usar, basta clicar no botão abaixo:';
 }
 
 .start {
@@ -173,6 +182,7 @@ main {
 .calculator select,
 .volume {
   width: 100%;
+  background-color: var(--white);
   border: 2px solid var(--header-color);
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
@@ -254,4 +264,35 @@ main {
 .footer i:hover {
   color: var(--font-color);
   transition: 0.2s;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 1rem 4rem;
+    margin: 5rem 0 0;
+  }
+
+  .start {
+    display: none;
+  }
+
+  .text {
+    margin-bottom: 0;
+  }
+
+  .text .click::before {
+    content: ' Para começar a usar, insira as informações solicitadas no formulário abaixo:';
+  }
+
+  .calculator {
+    display: block;
+  }
+
+  .watermark {
+    top: 105%;
+  }
+}
+
+@media screen and (min-width: 992px) {
 }
