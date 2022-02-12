@@ -16,7 +16,7 @@
   --logo-font: 'Coiny', cursive;
   /* colors */
   --hue-blue: 210;
-  --header-color: hsl(var(--hue-blue), 100%, 50%);
+  --header-color: hsl(var(--hue-blue), 96%, 32%);
   --font-color: hsl(var(--hue-blue), 100%, 20%);
   --bg-color: hsl(0, 0%, 93%);
   --white: hsl(0, 0%, 100%);
@@ -80,7 +80,7 @@ main {
   font-size: 10rem;
   color: var(--bg-color);
   text-shadow: -10px 0 0.5rem var(--white), 10px 0 0.5rem var(--white-87),
-    0 10px 0.5rem var(--white);
+    0 10px 0.5rem var(--white), 0 10px 0.5rem var(--white-87);
 }
 
 .about.close {
@@ -150,6 +150,7 @@ main {
 
 .legend {
   margin-bottom: 0.5rem;
+  color: var(--font-color);
 }
 
 .manufacturer {
@@ -240,10 +241,6 @@ main {
   margin: 0 auto;
 }
 
-.footer .icon-logo {
-  text-align: center;
-}
-
 .social,
 .links {
   justify-content: center;
@@ -262,12 +259,20 @@ main {
 }
 
 .footer i:hover {
-  color: var(--font-color);
+  padding: 4px;
+  border-radius: 0.5rem;
+  box-shadow: 4px 2px 0.5rem #003366, -4px 0 0.5rem #0580fa,
+    2px 4px 0.5rem #003366, 0 -4px 0.5rem #0580fa;
+  color: var(--white);
   transition: 0.2s;
 }
 
 /* ---------- MEDIA QUERIES ---------- */
 @media screen and (min-width: 768px) {
+  .header.container {
+    padding: 1.75rem 4rem;
+  }
+
   .container {
     padding: 1rem 4rem;
     margin: 5rem 0 0;
@@ -295,4 +300,41 @@ main {
 }
 
 @media screen and (min-width: 992px) {
+  main {
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 5rem;
+    justify-content: space-around;
+  }
+
+  .watermark {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    z-index: -1;
+  }
+
+  .about,
+  .calculator {
+    max-width: 700px;
+  }
+
+  .text .click::before {
+    content: ' Para começar a usar, insira as informações solicitadas no formulário ao lado:';
+  }
+
+  .footer {
+    padding: 1.75rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand a {
+    justify-content: start;
+  }
+
+  .brand p {
+    text-align: left;
+  }
 }
