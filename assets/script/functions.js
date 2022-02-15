@@ -66,6 +66,7 @@ function calculate() {
         }
       })
     resultDiv.classList.add('show')
+    resultDiv.scrollIntoView({behavior: 'smooth'})
   }
 }
 
