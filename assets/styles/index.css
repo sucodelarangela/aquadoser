@@ -338,3 +338,9 @@ main {
     text-align: left;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .container {
+    margin: 6.25rem 0;
+  }
+}
