@@ -4,11 +4,23 @@
   <img src="assets/images/aquadoser_white.svg" height="150">
 </div>
 
-## Em breve neste repositório:
+## Visão geral
 
-O AquaDoser será uma calculadora de dosagem de fertilizantes e sais de adequação de parâmetros para aquários, com foco inicial em aquários plantados. Futuramente, serão inseridos produtos também para aquários de água salgada.
+O AquaDoser é uma calculadora de dosagem de fertilizantes e sais de adequação de parâmetros para aquários, com foco inicial em aquários plantados (ainda em desenvolvimento). Futuramente, serão inseridos produtos também para aquários de água salgada.
 
-O objetivo desta aplicação é auxiliar os aquaristas da minha comunidade (São Luís-MA-Brasil) calculando as dosagens corretas de diversos produtos que comumente utilizamos em nossos aquários. Para isso, optarei por uma interface simples e direto ao ponto para maximizar a utilização na comunidade.
+O objetivo desta aplicação é auxiliar os aquaristas da minha comunidade (São Luís-MA-Brasil) calculando as dosagens corretas de diversos produtos que comumente utilizamos em nossos aquários. Para isso, optei por uma interface simples e direto ao ponto para maximizar a utilização na comunidade.
+
+## Como usar
+
+Ao acessar o site na versão _mobile_, basta clicar no botão Iniciar para utilizar a calculadora (a versão desktop não possui esta tela). Basta selecionar então uma **Marca** para ter acesso à lista de produtos disponíveis. Selecione o **Produto** que deseja calcular e informe o **Volume** do seu aquário. Clique em **Calcular**: o resultado aparecerá logo abaixo do formulário.
+
+<table>
+  <tr valign="top">
+    <td><img src="https://raw.githubusercontent.com/sucodelarangela/aquadoser/master/assets/images/screen_1.png" alt="Tela inicial do Aquadoser" ></td>
+    <td><img src="https://raw.githubusercontent.com/sucodelarangela/aquadoser/master/assets/images/screen_2.png" alt="Tela inicial do Aquadoser" ></td>
+    <td><img src="https://raw.githubusercontent.com/sucodelarangela/aquadoser/master/assets/images/screen_3.png" alt="Tela inicial do Aquadoser" ></td>
+  </tr>
+</table>
 
 ## Ressalvas
 
@@ -28,11 +40,23 @@ _© Design de logo e nome Aquadoser por Angela Caldas._ <span><img src="assets/i
 
 _English version_
 
-## Coming soon in this repo:
+## Overview
 
-The AquaDoser will be a calculator for dosing ferts and conditioning salts in fish tanks and aquariums, initially focused in planted tanks. In the future, the application will also include dosages for salt water tanks as well.
+The AquaDoser is a calculator for dosing ferts and conditioning salts in fish tanks and aquariums, initially focused in planted tanks (development still in progress). In the future, the application will also include dosages for salt water tanks as well.
 
 The main objective of this application is helping the fishkeepers of my community (São Luís-MA-Brazil) by calculating the correct amount of several products we usually use in our tanks in a daily or weekly basis. To do so, I chose to use a simple and straight-to-the-point interface to maximize the app acceptance in the fishkeeper community.
+
+## How to use it
+
+When opening the website on _mobile_ version, click the "Iniciar" button to use the calculator (the tablet and desktop versions have no opening screen). Then select a brand in the **Selecione a marca** dropdown to have access to their product list. Select the product you wish to calculate in the **Selecione o produto** dropdown and inform the volume of your tank (in Liters) in the **Volume do aquário (em litros)** input field. Click in the **Calcular** button: the result will show (in pt-br) just below the form.
+
+<table>
+  <tr valign="top">
+    <td><img src="https://raw.githubusercontent.com/sucodelarangela/aquadoser/master/assets/images/screen_1.png" alt="Tela inicial do Aquadoser" ></td>
+    <td><img src="https://raw.githubusercontent.com/sucodelarangela/aquadoser/master/assets/images/screen_2.png" alt="Tela inicial do Aquadoser" ></td>
+    <td><img src="https://raw.githubusercontent.com/sucodelarangela/aquadoser/master/assets/images/screen_3.png" alt="Tela inicial do Aquadoser" ></td>
+  </tr>
+</table>
 
 ## Disclaimer
 
