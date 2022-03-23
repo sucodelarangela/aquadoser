@@ -2,6 +2,9 @@
 
 <div align="center">
   <img src="assets/images/aquadoser_white.svg" height="150">
+
+_Scroll down for English version_
+
 </div>
 
 ## Visão geral
