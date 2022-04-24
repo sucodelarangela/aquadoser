@@ -9,7 +9,7 @@ _Scroll down for English version_
 
 ## Visão geral
 
-O AquaDoser é uma calculadora de dosagem de fertilizantes e sais de adequação de parâmetros para aquários, com foco inicial em aquários plantados (ainda em desenvolvimento). Futuramente, serão inseridos produtos também para aquários de água salgada.
+O AquaDoser é uma calculadora de dosagem de fertilizantes e sais de adequação de parâmetros para aquários, com foco inicial em aquários plantados (ainda em desenvolvimento, atualmente em stand-by). Futuramente, serão inseridos produtos também para aquários de água salgada.
 
 O objetivo desta aplicação é auxiliar os aquaristas da minha comunidade (São Luís-MA-Brasil) calculando as dosagens corretas de diversos produtos que comumente utilizamos em nossos aquários. Para isso, optei por uma interface simples e direto ao ponto para maximizar a utilização na comunidade.
 
@@ -45,7 +45,7 @@ _English version_
 
 ## Overview
 
-The AquaDoser is a calculator for dosing ferts and conditioning salts in fish tanks and aquariums, initially focused in planted tanks (development still in progress). In the future, the application will also include dosages for salt water tanks as well.
+The AquaDoser is a calculator for dosing ferts and conditioning salts in fish tanks and aquariums, initially focused in planted tanks (development still in progress, currently in stand-by). In the future, the application will also include dosages for salt water tanks as well.
 
 The main objective of this application is helping the fishkeepers of my community (São Luís-MA-Brazil) by calculating the correct amount of several products we usually use in our tanks in a daily or weekly basis. To do so, I chose to use a simple and straight-to-the-point interface to maximize the app acceptance in the fishkeeper community.
 
